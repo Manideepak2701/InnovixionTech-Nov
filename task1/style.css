@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Encode+Sans&family=Montserrat:wght@200&display=swap');
+
+/* Reset some default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+}
+
+/* Styling for the navigation bar */
+.navbar {
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed; /* Make the navbar fixed at the top */
+    top: 0; /* Stick it to the top of the viewport */
+    width: 100%; /* Make it full width */
+    transition: background-color 0.3s;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+.navbar-right {
+    display: flex;
+    padding-right: 200px;
+}
+
+.a-element {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 35px;
+}
+.a-element:hover {
+    color: #db3434;
+}
+
+/* Styling for the home section */
+.home { /* Change the background color */
+    background-color: #000000;
+    text-align: center;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: row; /* Change to a row layout */
+    justify-content: space-around; /* Adjust alignment */
+    align-items: center;
+}
+
+.home-left {
+    text-align: left;
+    padding-left: 200px;
+    color: #fffefe;
+}
+
+.home-right {
+    text-align: right;
+    padding-right: 250px;
+}
+
+.home-h1 {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: typing;
+    animation-duration: 1.5s;
+    animation-timing-function: steps(30, end);
+    animation-fill-mode: forwards;
+    font-size: 36px;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+.home-h1 span {
+    color: #ca2323;
+}
+
+.image {
+    width: 300px; /* Adjust the image size */
+    height: auto;
+}
+
+.button {
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 19px; /* Add border-radius for curved corners */
+}
+
+.button1 {
+    background-color: #ca2323;
+    color: rgb(255, 251, 251);
+    border: 2px solid #ca2323;
+}
+
+.button1:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+
+.about-card {
+    font-family: cursive;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.about-card h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.about-p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+
+
+/* Styling for the skills section */
+.skills {
+    font-family: cursive;
+    text-align: center;
+    padding: 60px 0;
+    color: #fff;
+}
+
+.skill-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+    max-width: 250px;
+}
+
+.skill-card img {
+    width: 100px;
+    height: 100px;
+}
+
+.skill-card h3 {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+}
+
+
+/* Styling for the contact section */
+.contact {
+    font-family: cursive;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.contact-info p {
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+/* Styling for social icons */
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icon-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/* Hover effect for social icons */
+.social-icon a:hover {
+    filter: brightness(70%);
+}
