@@ -1,1 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 235px auto;
+    max-width: 400px;
+    background-color: #DCD9D4;
+ background-image: linear-gradient(to bottom, rgb(254, 0, 0) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
+ background-blend-mode: soft-light,screen;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #fa0000;
+}
+
+h1 {
+    font-family: cursive;
+    color: #4285f4;
+}
+
+label {
+    font-size: 1.2em;
+    margin-right: 10px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#datepicker {
+    padding: 8px;
+    font-size: 1em;
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #fc0101;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover
+{
+    background-color: #db1010;
+}
+
+#countdown {
+    font-size: 1.7em;
+    color: #4285f4;
+    margin-top: 20px;
+    border-top: 2px solid #4285f4;
+    padding-top: 10px;
+    font-family: cursive;
+}
 
